@@ -25,6 +25,9 @@ notifyBtn.addEventListener('click', e => {
         error.classList.add('error')
         console.log(error.textContent)
         form.after(error)
+    }else{
+        document.querySelector('.error').remove()
+
     }
 })
 
